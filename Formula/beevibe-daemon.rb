@@ -1,28 +1,28 @@
 class BeevibeDaemon < Formula
   desc "Beevibe daemon — runs agent CLIs locally on your machine"
   homepage "https://github.com/beevibe-ai/beevibe"
-  version "0.0.1-rc2"
+  version "0.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.0.1-rc2/beevibe-daemon-darwin-arm64"
-      sha256 "ef75238e7ba4f0ab7b846868ba1f912b162ec72b8c928e748f221139cdabb065"
+      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.1.0/beevibe-daemon-darwin-arm64"
+      sha256 "c5b46f6d05859a38c040675ef156fdfb1a5f3a6e2eb7aca8da36a2eb51a5e768"
     end
     on_intel do
-      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.0.1-rc2/beevibe-daemon-darwin-x64"
-      sha256 "5b58c4f38fa947f34842b662637fc5179580b9ca3d2b917b1fe847e1ffc00c9d"
+      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.1.0/beevibe-daemon-darwin-x64"
+      sha256 "494c3c42ef70b3213103b2a18ac5dbeb9b2bd38d59b370db061219e620f520a9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.0.1-rc2/beevibe-daemon-linux-x64"
-      sha256 "2e2bd9e93a3738286c7191b058e0932298b7fdb17da13c921bc8359fd8c8fd2b"
+      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.1.0/beevibe-daemon-linux-x64"
+      sha256 "502035d77dae19132f25bb0466e0d54c18134fb02e46b4c140c51a59cd0b084e"
     end
     on_arm do
-      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.0.1-rc2/beevibe-daemon-linux-arm64"
-      sha256 "2753672536130f418ef0256398363174357b2c99d8f7a9d19998332530ed04d0"
+      url "https://github.com/beevibe-ai/beevibe/releases/download/v0.1.0/beevibe-daemon-linux-arm64"
+      sha256 "e31fdff38f14e81b55440c381bc84c8bfe7d7824e12ed677953c19c39490fd5e"
     end
   end
 
